@@ -11,19 +11,6 @@ import tkinter as tk
 import math
 import RuleGUI as gui
 
-# def define_rule():
-#     rules = []
-#     requests = ["For all blocks of state 1: ", "For block one and two of state 1: ", "For block one and three of state 1: "
-#                 ,"For block one of state 1: ", "For blocks two and three of state 1: ", "For block 2 of state 1: ", "For block three of state 1: ", 
-#                 "For no block of state 1: "]
-    
-#     for i in range(8):
-#         rules.append(int(input(requests[i])))
-        
-#     return rules
-
-# RULES = define_rule()
-
 gui.root.mainloop()
 RULES = list(gui.rules[0])
 RULES = [int(x) for x in RULES[0:8]]
